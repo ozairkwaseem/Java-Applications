@@ -28,16 +28,18 @@ public void alphabetshuffler(){
     System.out.println(alphabet);
     
 }
-    public List randomNumbers(){
+// Generate and return an array with 10 random numbers between 55-100 and have it be sorted (showing the smallest number in the beginning). Display all the numbers in the array. Next, display the minimum value in the array as well as the maximum value.
+    public void randomNumbers(){
         Random r = new Random();
         ArrayList<Integer> numbers= new ArrayList<>();
         for(Integer x = 55; x<=100; x++){
             numbers.add(x);
-            int random = r.nextInt(45);
-            System.out.println(numbers.get(random));
 
         }
-        return numbers;
+        int random = r.nextInt(45);
+        System.out.println(numbers.get(random));
+        System.out.println(numbers); 
     }
 
 }
+
