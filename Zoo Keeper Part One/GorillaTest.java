@@ -5,7 +5,7 @@ public class GorillaTest {
         g.climb();
         g.throwSomething();
         g.getEnergyLevel();
-        System.out.println(g.energyLevel);
+        System.out.println(g.displayEnergy());
 
     }
 
